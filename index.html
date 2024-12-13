@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircleUp - Ethical Hacking Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0d1117;
+            --secondary-color: #161b22;
+            --highlight-color: #1f6feb;
+            --text-color: #c9d1d9;
+            --accent-color: #39d353;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--secondary-color);
+            color: var(--accent-color);
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 1px solid var(--highlight-color);
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            color: var(--highlight-color);
+        }
+
+        .hero p {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            background-color: var(--secondary-color);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .feature h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            margin-top: 2rem;
+            border-top: 1px solid var(--highlight-color);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CircleUp</h1>
+        <p>Always on Top</p>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Welcome to CircleUp</h2>
+            <p>An Ethical Hacking Platform. Learn, practice, and grow your skills in cybersecurity.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Penetration Testing</h3>
+                <p>Learn how to identify and exploit vulnerabilities in a safe and ethical manner.</p>
+            </div>
+            <div class="feature">
+                <h3>Network Security</h3>
+                <p>Master the skills needed to protect networks from malicious attacks.</p>
+            </div>
+            <div class="feature">
+                <h3>Bug Bounty Programs</h3>
+                <p>Get insights into finding bugs and earning rewards from top companies.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CircleUp. Ethical Hacking for a Secure Future.</p>
+    </footer>
+</body>
+</html>
