@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "ethical hacking", "Penetration testing", "web designing", "android development", "web development"],
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development", "ethical hacking"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -190,19 +190,17 @@ document.onkeydown = function (e) {
     }
 }
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/675eafa949e2fd8dfef80643/1if4tsceq';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
+// Start of Tawk.to Live Chat
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
 })();
-</script>
-<!--End of Tawk.to Script-->
+// End of Tawk.to Live Chat
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
