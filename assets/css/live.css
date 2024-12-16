@@ -1,5 +1,5 @@
-/* Import Google Font: Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* Import Google Font: Poppins for main text and Roboto for number */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
 
 /* General Body Styling */
 body {
@@ -11,16 +11,17 @@ body {
 
 /* Visitor Counter Styling */
 .visitor-counter {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px; /* Reduced font size */
+  font-family: 'Poppins', sans-serif; /* Font for "Total Visitors" text */
+  font-size: 18px; /* Adjust font size */
   font-weight: 500;
   color: #333;
-  margin: 10px 0 0 20px; /* Top margin positions it slightly below the top of the page */
+  margin: 10px 0 0 20px; /* Position it slightly below the top */
 }
 
 .visitor-counter span {
-  font-size: 22px; /* Reduced font size for the number */
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif; /* Font for the visitor count */
+  font-size: 22px; /* Larger font size for the number */
+  font-weight: 700; /* Bold weight for emphasis */
   letter-spacing: 1px;
   color: #5A3D88;
 }
