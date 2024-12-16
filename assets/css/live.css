@@ -1,44 +1,51 @@
-/* General body styling */
+/* General Body Styling */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; /* Light background for the page */
+  background: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  position: relative;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  gap: 20px;
 }
 
-/* Visitor count container */
-#visitor-count {
-  position: fixed;
-  top: 20px; /* Distance from the top of the screen */
-  left: 20px; /* Distance from the left of the screen */
-  font-size: 18px; /* Slightly smaller font size */
-  background: linear-gradient(145deg, #6a82fb, #fc5c7d); /* Gradient background */
-  color: white; /* Text color */
-  padding: 15px 25px; /* Padding inside the box */
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-  z-index: 9999; /* Keep the counter on top of other elements */
-  font-weight: bold; /* Bold font */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease; /* Smooth transition for any changes */
-  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+.navbar li a {
+  color: white;
+  text-decoration: none;
 }
 
-/* Make sure the text inside the counter is well-aligned and styled */
-#visitor-count span {
-  font-size: 22px; /* Slightly larger font for the count value */
-  font-weight: 600;
+/* Visitor Counter Styling (Scoped for our specific use) */
+.visitor-counter {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 20px;
+  z-index: 10; /* Ensures it's above other content if there's any overlap */
 }
 
-/* Hover effect for interactivity */
-#visitor-count:hover {
-  transform: scale(1.05); /* Slight scaling effect when hovered */
-  cursor: pointer; /* Change cursor to pointer to show it's interactive */
+.visitor-counter span {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #5A3D88;
 }
 
+/* Additional page content styling */
+.content {
+  padding: 20px;
+  margin-top: 20px;
+}
