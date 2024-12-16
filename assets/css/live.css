@@ -6,35 +6,13 @@ body {
   background: #f4f4f4;
 }
 
-/* Navbar Styling */
-.navbar {
-  background-color: #333;
-  padding: 10px;
-  position: relative;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar li a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Visitor Counter Styling (Scoped for our specific use) */
+/* Visitor Counter Styling */
 .visitor-counter {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
-  margin-top: 10px;
-  margin-left: 20px;
-  z-index: 10; /* Ensures it's above other content if there's any overlap */
+  margin: 10px 0 0 20px; /* Top margin positions it just below the top of the page */
 }
 
 .visitor-counter span {
@@ -44,7 +22,7 @@ body {
   color: #5A3D88;
 }
 
-/* Additional page content styling */
+/* Additional Page Content Styling */
 .content {
   padding: 20px;
   margin-top: 20px;
