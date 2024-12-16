@@ -1,13 +1,8 @@
-/* Remove default cursor from CSS */
+/* Apply a custom cursor to the entire page */
 body {
-    cursor: none; /* Set cursor to 'none' to prevent default cursor from showing */
+    cursor: url('./assets/cursor/cur2.png'), auto;
 }
-/* Remove cursor change on links or other elements */
-a, button, input, textarea, img {
-    cursor: inherit; /* Inherit the body cursor */
-}
-
-/* Optional: If you want to prevent pointer events (like clicking) on specific elements */
-.some-element {
-    pointer-events: none; /* This will prevent any click or hover on this element */
+/* Apply the same cursor style to these specific elements */
+a, button, input, textarea, video, img, .notification, p {
+    cursor: inherit;  /* Inherit the cursor from the body */
 }
