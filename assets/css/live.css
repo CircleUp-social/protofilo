@@ -1,20 +1,44 @@
-/* Visitor count styling */
-#visitor-count {
-  position: fixed; /* Fixed position for floating effect */
-  left: 10px; /* Distance from the left */
-  top: 10px; /* Distance from the top */
-  font-size: 20px;
-  background: lightgray;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
-  z-index: 9999; /* High z-index to ensure it's above other elements */
-  width: auto; /* Allow the width to adjust based on content */
-  box-sizing: border-box; /* Ensures padding does not affect width */
-}
-
+/* General body styling */
 body {
-  font-family: Arial, sans-serif; /* Add some basic styling */
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4; /* Light background for the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
+/* Visitor count container */
+#visitor-count {
+  position: fixed;
+  top: 20px; /* Distance from the top of the screen */
+  left: 20px; /* Distance from the left of the screen */
+  font-size: 18px; /* Slightly smaller font size */
+  background: linear-gradient(145deg, #6a82fb, #fc5c7d); /* Gradient background */
+  color: white; /* Text color */
+  padding: 15px 25px; /* Padding inside the box */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  z-index: 9999; /* Keep the counter on top of other elements */
+  font-weight: bold; /* Bold font */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease; /* Smooth transition for any changes */
+  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+}
+
+/* Make sure the text inside the counter is well-aligned and styled */
+#visitor-count span {
+  font-size: 22px; /* Slightly larger font for the count value */
+  font-weight: 600;
+}
+
+/* Hover effect for interactivity */
+#visitor-count:hover {
+  transform: scale(1.05); /* Slight scaling effect when hovered */
+  cursor: pointer; /* Change cursor to pointer to show it's interactive */
+}
+
