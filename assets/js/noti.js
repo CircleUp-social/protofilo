@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Redirect when the button is clicked
             document.getElementById("notification-btn").addEventListener("click", function() {
-                window.location.href = "https://www.example.com";  // Replace with the website you want to redirect to
+                window.location.href = "https://www.getfreedomains.circleup.top";  // Replace with the website you want to redirect to
             });
 
             // Hide the notification after 3 seconds
