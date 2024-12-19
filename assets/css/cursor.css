@@ -1,6 +1,6 @@
 /* Apply a custom cursor to the entire page */
 body {
-    cursor: url('./assets/cursor/cur2.png'), auto;
+    cursor: url('./assets/cursor/cursor.png'), auto;
 }
 /* Apply the same cursor style to these specific elements */
 a, button, input, textarea, video, img, .notification, p {
